@@ -1,0 +1,30 @@
+.task-card{
+    border-radius: 6px;
+    background-color: red;
+    width: 95%;
+    box-sizing: border-box;
+    margin: 8px;
+    
+}
+.task-card h3{
+    padding: 6px;
+}
+.title-border{
+    display: flex;
+    justify-content: space-between;
+}
+.fabeer{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
+}
+.task-card p{
+    font-size: 11pt;
+    padding: 5px 0px;
+}
+.date{
+    display: flex;
+    justify-content: flex-end;
+}
