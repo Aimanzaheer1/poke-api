@@ -47,8 +47,9 @@ export default function AddListContainer() {
     return (
       
       <>
+    <h1 className="heading">ToDo List</h1>
         <div className='wrapper'>
-          
+         
             <form onSubmit={(event)=>event.preventDefault}>
               <div className='input-fields'>
                 <input type="text" placeholder="Title" required="required" onChange={funcSetTitle} value={title}/>

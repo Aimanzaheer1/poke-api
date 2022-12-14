@@ -6,8 +6,7 @@ export default function ShowListContainer(props) {
   const mystyl={
     display:"flex",
     flexDirection:"column",
-    justifyContent:"center"
-    
+    justifyContent:"center",
   }
   const[ListOfTaskCard,seTListOfTaskCard]=useContext(globalList)
 

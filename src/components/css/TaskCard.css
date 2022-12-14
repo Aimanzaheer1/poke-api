@@ -1,10 +1,11 @@
 .task-card{
     border-radius: 6px;
-    background-color: red;
+    background-color: #3ac966;
     width: 95%;
     box-sizing: border-box;
     margin: 8px;
-    
+    top: 60px;
+    position: relative;
 }
 .task-card h3{
     padding: 6px;
@@ -12,19 +13,27 @@
 .title-border{
     display: flex;
     justify-content: space-between;
+    padding-left: 7px;
 }
 .fabeer{
-    padding: 5px;
+    padding-right: 6px;
     font-size: 20px;
     text-decoration: none;
     color: green;
     cursor: pointer;
+    padding-top: 6px;
 }
 .task-card p{
     font-size: 11pt;
     padding: 5px 0px;
+    padding-left: 12px;
+    padding-bottom: 20px;
 }
 .date{
     display: flex;
     justify-content: flex-end;
+    padding-right: 11px;
+    padding-bottom: 8px;
+    margin-top: -24px;
 }
+
